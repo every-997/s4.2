@@ -9,7 +9,6 @@ Serial pc(USBTX, USBRX);
 
 int main(void)
 {
-    char sensor;
     motion_data_units_t acc_data, mag_data;
 
     acc.enable();
